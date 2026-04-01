@@ -66,7 +66,6 @@
 
 .header__theme-menu-button {
   border: none;
-  border: none;
   padding: 0 13px;
   font-size: inherit;
   text-transform: lowercase;
@@ -112,7 +111,7 @@
   border-inline-start: 1px solid var(--decorative-elements);
   border-block-end: 1px solid var(--decorative-elements);
   inset-inline-start: 10px;
-  inset-block-end: 10px; 
+  inset-block-end: 10px;
 }
 
 .decorated-zone::before {
@@ -269,7 +268,7 @@
     grid-template-columns: 1fr 2fr;
   }
 
-  .heading__tablet{
+  .heading__tablet {
     max-inline-size: 236px;
   }
 
@@ -317,7 +316,7 @@
     max-inline-size: 491px;
   }
 
-  .heading__tablet{
+  .heading__tablet {
     max-inline-size: 315px;
   }
 
