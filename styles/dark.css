@@ -16,6 +16,11 @@
   --title-color: #db00ff;
   --accent-heading-color: #000028;
   --decorative-elements: #ff0070;
+  --mine-menu-hover-color: rgb(255 0 112 / 0.4);
   --accent-color: #ff0070;
   --background-image: url(../images/cover-image-dark.png);
+
+  .header__element-decoration {
+    visibility: visible;
+  }
 }

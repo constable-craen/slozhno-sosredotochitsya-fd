@@ -20,19 +20,6 @@
   --background-image: url(../images/cover-image-light.png);
 
   .header__element-decoration {
-    display: none;
-  }
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-  --main-text-color: #353430;
-  --heading-color: #353430;
-  --title-color: #ffc2e6;
-  --background-color: #fff1f7;
-  --accent-heading-color: #353430;
-  --decorative-elements: #353430;
-  --accent-color: #ff8dcb;
-  --background-image: url(../images/cover-image-light.png);
+    visibility: hidden;
   }
 }

@@ -31,7 +31,8 @@
 .decorated-zone {
   position: relative;
   padding: 10px;
-  min-block-size: 100vh;
+  min-block-size: 668px;
+  height: 100vh;
 }
 
 .decorated-zone::after,
@@ -87,7 +88,7 @@
 .header__theme-menu-list {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 13px;
 }
 
 .header__theme-menu-button {
@@ -221,6 +222,7 @@
 
   .decorated-zone {
     padding: 20px;
+    min-block-size: 1024px;
   }
 
   .decorated-zone::before {
@@ -242,7 +244,7 @@
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 
-  .header.title {
+  .header .title {
     margin-inline-start: -20px;
   }
 
@@ -305,12 +307,21 @@
     flex-direction: row;
   }
 
+  .decorated-zone {
+    min-block-size: 768px;
+  }
+
   .header__text {
     max-inline-size: 491px;
   }
 
   .heading__tablet {
     max-inline-size: 315px;
+  }
+
+  .content__block-problems,
+  .content__block-solutions {
+    grid-template-columns:  1fr 2.06fr;
   }
 
   .card-factors {
