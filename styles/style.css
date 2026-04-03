@@ -132,12 +132,6 @@
   font-weight: bold;
 }
 
-.title-decor {
-  color: var(--accent-heading-color);
-  font-size: inherit;
-  background-color: var(--accent-color);
-}
-
 .main {
   display: flex;
   flex-direction: column;
@@ -154,6 +148,12 @@
   color: var(--heading-color);
   font-weight: bold;
   font-size: inherit;
+}
+
+.title-decor {
+  color: var(--accent-heading-color);
+  font-size: inherit;
+  background-color: var(--accent-color);
 }
 
 .card {
@@ -242,7 +242,7 @@
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 
-  .header__title {
+  .header.title {
     margin-inline-start: -20px;
   }
 
