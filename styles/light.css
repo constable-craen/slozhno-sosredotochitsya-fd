@@ -24,7 +24,6 @@
   }
 }
 
-/*Переопределение root для автоматического определения цветовой темы*/
 @media (prefers-color-scheme: light) {
   :root {
   --main-text-color: #353430;
