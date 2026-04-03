@@ -258,7 +258,7 @@
 
   .content__block-problems,
   .content__block-solutions {
-    grid-template-columns:  1fr 2.06fr;
+    grid-template-columns:  1fr 2fr;
   }
 
   .heading__tablet {
