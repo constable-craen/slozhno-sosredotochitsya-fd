@@ -238,9 +238,12 @@
     inset-inline-end: 20px;
   }
 
-  .header.title {
-    margin-inline-start: -20px;
+  .title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  }
+
+  .header__title {
+    margin-inline-start: -20px;
   }
 
   .header__text {
@@ -300,10 +303,6 @@
 
   .header__theme-menu-list {
     flex-direction: row;
-  }
-
-  .title {
-    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 
   .header__text {
